@@ -1,0 +1,6 @@
+money_start = input('Enter current savings in dollars:')
+saving_years = input('Enter number of years in savings account:')
+interest_rate = input ('Enter interest rate:')
+money_result = float(money_start) * float(interest_rate) * float(saving_years)
+print(money_result)
+print(money_result >= 10000)
