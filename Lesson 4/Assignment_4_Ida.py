@@ -1,0 +1,7 @@
+print('Is your word a Palindrome?')
+word = input('Enter word: ')
+word_lower = word.lower()
+word_list = list(word_lower)
+word_list.reverse()
+new_word = ''.join(word_list)
+print(word_lower == new_word)
